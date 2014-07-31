@@ -1,8 +1,12 @@
+/*
+ * Módulo de kernel que desprotege o processo init de receber um kill -9
+ * Autores:
+ * 	Francisco Machado Magalhães Neto
+ * 	Juventino Figueiredo de Lacerda Neto
+ */
+
 #include <linux/module.h>
-#include <linux/kernel.h>
 #include <linux/sched.h>
-#include <linux/mm.h>
-#include <linux/highmem.h>
 
 MODULE_LICENSE("GPL");
 
