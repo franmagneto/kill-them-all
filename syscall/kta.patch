@@ -12,7 +12,7 @@ diff -uprN -X linux-3.15.7/Documentation/dontdiff linux-3.15.7/arch/x86/syscalls
 diff -uprN -X linux-3.15.7/Documentation/dontdiff linux-3.15.7/kernel/kta.c linux-3.15.7-kta/kernel/kta.c
 --- linux-3.15.7/kernel/kta.c	1969-12-31 21:00:00.000000000 -0300
 +++ linux-3.15.7-kta/kernel/kta.c	2014-07-31 15:09:06.487236374 -0300
-@@ -0,0 +1,25 @@
+@@ -0,0 +1,23 @@
 +/*
 + * Chamada de sistema que desprotege o processo init de receber um kill -9
 + * Autor: Francisco Machado Magalhães Neto
