@@ -15,9 +15,7 @@ diff -uprN -X linux-3.15.7/Documentation/dontdiff linux-3.15.7/kernel/kta.c linu
 @@ -0,0 +1,25 @@
 +/*
 + * Chamada de sistema que desprotege o processo init de receber um kill -9
-+ * Autores:
-+ * 	Francisco Machado Magalhães Neto
-+ * 	Juventino Figueiredo de Lacerda Neto
++ * Autor: Francisco Machado Magalhães Neto
 + */
 +
 +#include <linux/sched.h>

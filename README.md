@@ -3,10 +3,7 @@ kill-them-all
 
 Chamada de sistema que desprotege o processo *init* de receber um *kill -9*
 
-Autores:
-
-* Francisco Machado Magalhães Neto
-* Juventino Figueiredo de Lacerda Neto
+Autor: Francisco Machado Magalhães Neto
 
 Pastas
 ------
